@@ -1,0 +1,22 @@
+{
+  "name": "hackuta-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.1",
+    "sass": "^1.54.4",
+    "svelte": "^3.49.0",
+    "svelte-preprocess": "^4.10.7",
+    "vite": "^3.0.7"
+  },
+  "dependencies": {
+    "svelte-countdown": "^1.1.2",
+    "svelte-material-icons": "^2.0.4"
+  }
+}
