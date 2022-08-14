@@ -26,10 +26,12 @@
 			<h1>📅 October 1-2, 2022</h1>
 			<Countdown from="October 1 2022 00:00:00 UTC-0600" to="October 2 2021 23:59:59 UTC-0600"></Countdown>
 			<br>
-			<LinkBtn href="https://discord.gg/zND7JCAN8y">Join the HackUTA Discord</LinkBtn>
-			<LinkBtn href="/">Visit us on DevPost</LinkBtn>
+			<div>
+				<LinkBtn href="https://discord.gg/zND7JCAN8y">Join the HackUTA Discord</LinkBtn>
+				<LinkBtn href="/">Visit us on DevPost</LinkBtn>
+			</div>
 			<!-- <p>Registration opens soon!</p> -->
-			<a href="/" class="downbtn"><ArrowDown color="white" size="3.4rem"></ArrowDown></a>
+			<a href="#downbtn" id="downbtn"><ArrowDown color="white" size="4rem"></ArrowDown></a>
 			
 		</div>
 	<Band id="about">
@@ -81,10 +83,10 @@
 			width: auto;
 		}
 	}
-	.downbtn {
+	#downbtn {
 		position: relative;
-		display: block;
-		top: 3rem;
+		display: inline-block;
+		top: 2rem;
 	}
 	.hero-content {
 		h1 {
