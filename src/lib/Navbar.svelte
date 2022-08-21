@@ -27,10 +27,13 @@
         padding: 1.6rem;
         width: 100%;
         text-align: right;
+        font-size: 100%;
+
         .navLogo {
-            width: 10vw;
+            width: 20vw;
             float: left;
         }
+
         a {
             color: white;
             display: inline-block;
