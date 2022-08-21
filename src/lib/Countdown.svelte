@@ -53,6 +53,7 @@
 <style lang="scss">
 #countdown
 {
+    padding: 2rem;
 	text-align: center;
 	> div
 	{
@@ -60,18 +61,18 @@
 		
 		.big
 		{
-		    font-size: 2rem;
+		    font-size: 4vh;
 		}
 		.small
 		{
-			font-size: 1rem;
+			font-size: 1.5vh;
 			opacity: 0.65;
 		}
 	}
 	.colon
 	{
 		font-size: 4rem;
-		padding: 0 1rem;
+		padding: 0 2vw;
 		position: relative;
 		top: -0.25rem;
 		opacity: 0.85;
