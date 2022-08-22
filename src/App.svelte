@@ -24,7 +24,7 @@
 </script>
 
 <main>
-	<!-- <Navbar links={navLinks}></Navbar> -->
+	<Navbar links={navLinks}></Navbar>
 	<video style="position: absolute; width: 100%; object-fit: cover; z-index: -1;" class="topBg hero background-video" src="{backgroundVid}" autoplay muted loop></video>
 	<div class="hero-content">
 		<img src="{hackLogo}" alt="HackUTA Logo">
