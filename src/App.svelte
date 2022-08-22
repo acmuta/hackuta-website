@@ -133,7 +133,7 @@
       <br />
       <div class="row">
         <div class="col">
-          <div class="tabs">
+          <div class="tabs col1">
             <div class="tab">
               <input type="checkbox" id="chck1" />
               <label class="tab-label" for="chck1">What is a hackathon?</label>
@@ -192,7 +192,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="tabs">
+          <div class="tabs col2">
             <div class="tab">
               <input type="checkbox" id="chck7" />
               <label class="tab-label" for="chck7">Are there any rules?</label>
@@ -387,6 +387,20 @@
     box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
   }
 
+  @media (max-width: 472px) {
+    .col1 {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+    .col2 {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+  }
+
+  
+    
+
   .tab {
     width: 100%;
     color: white;
@@ -408,9 +422,9 @@
 
       &::after {
         content: "\276F";
-        width: 1em;
         height: 1em;
         transition: all 0.35s;
+        padding: 0 0 0 1em;
       }
     }
 
