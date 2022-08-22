@@ -1,6 +1,10 @@
 <script>
     import { fade } from 'svelte/transition';
-    import hackLogo from '../assets/logo.png'
+    import { Hamburger } from 'svelte-hamburgers';
+    let open;
+
+
+    import hackLogo from '../assets/logo.png';
     export let links = [{url:"/", name:"Link 1"}, {url:"/", name: "Link 2"}];
     let y = 0;
     let windowHeight;
@@ -12,11 +16,12 @@
     {#if navLogo}
     <img transition:fade="{{duration: 200}}" class="navLogo" src={hackLogo} alt="HackUTA Logo" />
     {/if}
-    <nav>
+    <Hamburger type="spin" --color=#ff1199  bind:open />
+    {#if open}
         {#each links as link}
             <a href={link.url}>{link.name}</a>
         {/each}
-    </nav>
+    {/if}
 </header>
 
 <style lang="scss">
@@ -28,6 +33,7 @@
         width: 100%;
         text-align: right;
         font-size: 100%;
+        
 
         .navLogo {
             width: 20vw;
@@ -36,7 +42,9 @@
 
         a {
             color: white;
-            display: inline-block;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
             text-decoration: none;
             padding: 5px;
             margin: 7px;
@@ -46,5 +54,13 @@
             }
         }
         z-index: 1;
+    }
+    @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 812px) 
+    and (-webkit-min-device-pixel-ratio: 3) { 
+        header{
+            background: rgba(0, 19, 88, var(--opacity));
+        }
     }
 </style>
