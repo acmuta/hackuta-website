@@ -154,8 +154,8 @@
                 don’t worry! Joining a team of new friends is the best part of a
                 hackathon. We will have <b>team matching available</b> for everyone
                 on the day of the event, but if you would like to ask around in our
-                discord and create a team beforehand, that's okay too! We will have
-                a spreadsheet to fill out and confirm team information.
+                discord and create a team beforehand, that's okay too! Team member assignment
+		will be confirmed when adding members and submitting your project through Devpost at the end of the hacking period.
               </div>
             </div>
             <div class="tab">
