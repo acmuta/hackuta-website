@@ -4,7 +4,7 @@
 	 viewBox="0 0 1920 940" style="enable-background:new 0 0 1920 940;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#001358;}
-	.st1{opacity:0.02;animation: pulse2 10s ease-out alternate infinite running;}
+	.st1{opacity:0.02;animation: pulse2 5s ease-out alternate infinite running;}
 	.st2{opacity:0.46;animation: pulse 10.8s ease-out alternate infinite running;fill:#FFFFFF;;}
 	.st3{opacity:0.24;animation: pulse 15.2s ease-out alternate infinite running;fill:#FFFFFF;;}
 	.st4{opacity:0.89;animation: pulse 2.2s ease-out alternate infinite running;fill:#FFFFFF;;}
@@ -100,11 +100,11 @@
 
 	@keyframes pulse2 {
 		0% {
-			opacity: 2%;
+			opacity: 4%;
 		}
 
 		100% {
-			opacity: 5%;
+			opacity: 7%;
 		}
 	}
 </style>

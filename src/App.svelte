@@ -63,7 +63,7 @@
       <LinkBtn href="https://discord.gg/zND7JCAN8y">HackUTA Discord</LinkBtn>
     </div>
     <!-- <p>Registration opens soon!</p> -->
-    <a href="#downbtn" id="downbtn"> <ArrowDown color="white" size="4rem" /></a>
+    <a href="#about" id="downbtn"> <ArrowDown color="white" size="4rem" /></a>
   </div>
   <Band id="about">
     <h1 slot="heading">About HackUTA</h1>
@@ -313,6 +313,7 @@
     position: relative;
     display: inline-block;
     top: 1.5rem;
+    padding: 0 0 0 0.2rem;
   }
 
   .hero-content {
