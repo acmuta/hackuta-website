@@ -14,7 +14,7 @@
 </script>
 
 <svelte:window bind:scrollY={y} bind:innerHeight={windowHeight} />
-
+<a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;left:min(5vw,50px);top:0;width:10%;z-index:10000" href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg" alt="Major League Hacking 2023 Hackathon Season" style="width:100%"></a>
 {#if header}
   <header style:--opacity={Math.min(Math.max(0, y / 200 - 3), 0.35)}>
     <img
@@ -54,6 +54,7 @@
       max-width: 175px;
       float: left;
       padding: 0.5vh;
+      margin-left: calc(50% - (min(175px, 40vw)/2));
     }
 
     a {
