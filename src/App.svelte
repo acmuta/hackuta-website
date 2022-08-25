@@ -11,6 +11,7 @@
   import acmicon from "./assets/acmicon.svg";
   import statefarm from "./assets/sponsors/statefarm.png";
   import utacse from "./assets/sponsors/utacse.png";
+  import mlh from "./assets/sponsors/mlh.png";
 import DesktopNavbar from "./lib/DesktopNavbar.svelte";
 
   let navLinks = [
@@ -238,7 +239,7 @@ import DesktopNavbar from "./lib/DesktopNavbar.svelte";
               <input type="checkbox" id="chck12" />
               <label class="tab-label" for="chck12">When will registration end and is there a limit?</label>
               <div class="tab-content">
-				<b>Priority Registration opens August 22th and closes on September 14th at 11:59 PM CDT</b>. If you are accepted, you will have a week to confirm your registration. If you are not accepted at this time, your application will be reviewed again when <b>registration closes completely on September 28th, 11:59pm CDT</b>.
+				        <b>Priority Registration opens August 22nd and closes on September 14th at 11:59 PM CDT</b>. If you are accepted, you will have a week to confirm your registration. If you are not accepted at this time, your application will be reviewed again when <b>registration closes completely on September 28th, 11:59pm CDT</b>.
               </div>
             </div>
           </div>
@@ -268,7 +269,16 @@ import DesktopNavbar from "./lib/DesktopNavbar.svelte";
             alt="UTA Department of Computer Science"
           />
         </li>
+        <li>
+          <img
+            src={mlh}
+            style="border-radius: 20px; max-width: 256px; width: 70vw"
+            alt="Major League Hacking"
+          />
+        </li>
       </ul>
+      <br>
+      <p>Want to sponsor us? <br>Reach out at <u>sponsor[at]hackuta[dot]org</u></p>
     </div>
   </Band>
   <!-- <Band id="construction" accented>
@@ -399,10 +409,7 @@ import DesktopNavbar from "./lib/DesktopNavbar.svelte";
       border-top-left-radius: 0;
       border-top-right-radius: 0;
     }
-  }
-
-  
-    
+  } 
 
   .tab {
     width: 100%;
