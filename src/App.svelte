@@ -11,6 +11,7 @@
   import acmicon from "./assets/acmicon.svg";
   import statefarm from "./assets/sponsors/statefarm.png";
   import utacse from "./assets/sponsors/utacse.png";
+import DesktopNavbar from "./lib/DesktopNavbar.svelte";
 
   let navLinks = [
     // {name: "Register Now", url: "/register"},
@@ -42,6 +43,7 @@
 
 <main>
   <Navbar links={navLinks} />
+  <DesktopNavbar links={navLinks} />
   <video
     style="position: absolute; width: 100%; object-fit: cover; z-index: -1;"
     class="topBg hero background-video"
