@@ -17,7 +17,7 @@ export let events = [
         //allDay: true
     },
     {
-        title: "Python Workshop with Prof. Donna French",
+        title: "Python Workshop with Prof. Donna French <br><a href=\"https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjE0NjZjNDQtYjEwZS00ZGQ2LWI2ODEtMjEyYzA0NWZmZmM2%40thread.v2/0?context=%7b%22Tid%22%3a%225cdc5b43-d7be-4caa-8173-729e3b0a62d9%22%2c%22Oid%22%3a%22872c0322-8deb-46b7-9502-72ebb8ae0090%22%7d\" target=\"_blank\">Join Workshop</a>",
         start: '2022-09-10 13:00:00',
         end: '2022-09-10 16:00:00',
         color: workshop
