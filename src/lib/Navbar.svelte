@@ -50,6 +50,7 @@
     width: 100%;
     text-align: left;
     font-size: 100%;
+    z-index: 4;
     .headTop {
       display: flex;
     }
@@ -79,7 +80,6 @@
         opacity: 0.7;
       }
     }
-    z-index: 1;
   }
   @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
     header {

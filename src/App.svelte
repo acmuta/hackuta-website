@@ -83,6 +83,7 @@
       document.getElementsByClassName("calendar-container")[0].style["margin-left"] = '5vw';
       document.getElementsByClassName("calendar-container")[0].style["margin-right"] = '5vw';
       document.getElementsByClassName("calendar-container")[0].style["padding"] = '2rem';
+      document.getElementsByClassName("ec-title")[0].style["padding"] = '1.5rem';
       document.getElementsByClassName("ec-toolbar")[0].style["flex-wrap"] = "wrap";
     }
   }
