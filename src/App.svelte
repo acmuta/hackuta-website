@@ -12,8 +12,38 @@
   import statefarm from "./assets/sponsors/statefarm.png";
   import utacse from "./assets/sponsors/utacse.png";
   import mlh from "./assets/sponsors/mlh.png";
-import DesktopNavbar from "./lib/DesktopNavbar.svelte";
+  import DesktopNavbar from "./lib/DesktopNavbar.svelte";
+  import Calendar from '@event-calendar/core';
+  import List from '@event-calendar/list';
+  import TimeGrid from '@event-calendar/time-grid';
+  import {events} from './lib/events_list.js';
+  import Interaction from '@event-calendar/interaction';
 
+  // Calendar
+  let plugins = [List, TimeGrid, Interaction];
+  let options = {
+      view: 'listMonth',
+      //date: '2022-10-1',
+      views: {timeGridDay: {pointer: true, date: '2022-10-01'}, timeGridWeek: {pointer: true}},
+      firstDay: 1, // start week on Monday
+      height: '60vh',
+      editable: false,
+      eventStartEditable: false,
+      eventDurationEditable: false,
+      headerToolbar: {
+        start: 'prev,next today',
+            center: 'title',
+            end: 'timeGridWeek,timeGridDay,listMonth'
+      },
+      nowIndicator: true,
+      scrollTime: '09:30:00',
+      slotDuration: '00:15:00',
+      flexibleSlotTimeLimits: false,
+      highlightedDates: ['2022-10-01', '2022-10-02'],
+      events: events
+  };
+
+  // Navbar links
   let navLinks = [
     // {name: "Register Now", url: "/register"},
 
@@ -126,10 +156,12 @@ import DesktopNavbar from "./lib/DesktopNavbar.svelte";
   </Band>
   <Band id="schedule" accented>
     <h1 slot="heading">Event Schedule</h1>
-    <div slot="content">
-      <p>Coming Soon!</p>
-    </div>
   </Band>
+  <div style="padding: 1rem 2rem; background: #ff1199;" class="calendar-container-container">
+    <div style="margin-left: 10vw; margin-right: 10vw; color: black; background: white; padding: 3rem; border-radius: 20px" class=calendar-container>
+      <Calendar {plugins} {options}></Calendar>
+    </div>
+  </div>
   <Band id="faq">
     <h1 slot="heading">FAQs</h1>
     <div slot="content">
@@ -291,7 +323,7 @@ import DesktopNavbar from "./lib/DesktopNavbar.svelte";
 	</Band> -->
   <Band id="footer" special>
     <h4 slot="heading">
-      <a href="https://lryanle.com/acm">
+      <a href="https://lryanle.com/acm" style="color: white; text-decoration: none">
         Made with <img
           src={acmicon}
           alt="acm logo"
@@ -473,6 +505,12 @@ import DesktopNavbar from "./lib/DesktopNavbar.svelte";
     ~ .tab-content {
       max-height: 100vh;
       padding: 1em;
+    }
+  }
+
+  .calendar-container-container {
+    &> * {
+      margin-bottom: 10vh;
     }
   }
 </style>

@@ -19,7 +19,7 @@
         display: inline-block;
         font-size: 1.2rem;
         letter-spacing: 0;
-        
+        transition: all .6s ease;
         &:hover,
         &:active {
             letter-spacing: 5px;

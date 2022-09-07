@@ -45,7 +45,7 @@
                 opacity: .7;
             }
         }
-        z-index: 1;
+        z-index: 50;
     }
     @media only screen and (max-width: 600px) {
         header {
