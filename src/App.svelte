@@ -12,35 +12,39 @@
   import statefarm from "./assets/sponsors/statefarm.png";
   import utacse from "./assets/sponsors/utacse.png";
   import mlh from "./assets/sponsors/mlh.png";
+  import rc from "./assets/sponsors/raisingcanes.png";
   import DesktopNavbar from "./lib/DesktopNavbar.svelte";
-  import Calendar from '@event-calendar/core';
-  import List from '@event-calendar/list';
-  import TimeGrid from '@event-calendar/time-grid';
-  import {events} from './lib/events_list.js';
-  import Interaction from '@event-calendar/interaction';
+  import Calendar from "@event-calendar/core";
+  import List from "@event-calendar/list";
+  import TimeGrid from "@event-calendar/time-grid";
+  import { events } from "./lib/events_list.js";
+  import Interaction from "@event-calendar/interaction";
 
   // Calendar
   let plugins = [List, TimeGrid, Interaction];
   let options = {
-      view: 'listMonth',
-      //date: '2022-10-1',
-      views: {timeGridDay: {pointer: true, date: '2022-10-01'}, timeGridWeek: {pointer: true}},
-      firstDay: 1, // start week on Monday
-      height: '60vh',
-      editable: false,
-      eventStartEditable: false,
-      eventDurationEditable: false,
-      headerToolbar: {
-        start: 'prev,next today',
-            center: 'title',
-            end: 'timeGridWeek,timeGridDay,listMonth'
-      },
-      nowIndicator: true,
-      scrollTime: '09:30:00',
-      slotDuration: '00:15:00',
-      flexibleSlotTimeLimits: false,
-      highlightedDates: ['2022-10-01', '2022-10-02'],
-      events: events
+    view: "listMonth",
+    //date: '2022-10-1',
+    views: {
+      timeGridDay: { pointer: true, date: "2022-10-01" },
+      timeGridWeek: { pointer: true },
+    },
+    firstDay: 1, // start week on Monday
+    height: "60vh",
+    editable: false,
+    eventStartEditable: false,
+    eventDurationEditable: false,
+    headerToolbar: {
+      start: "prev,next today",
+      center: "title",
+      end: "timeGridWeek,timeGridDay,listMonth",
+    },
+    nowIndicator: true,
+    scrollTime: "09:30:00",
+    slotDuration: "00:15:00",
+    flexibleSlotTimeLimits: false,
+    highlightedDates: ["2022-10-01", "2022-10-02"],
+    events: events,
   };
 
   // Navbar links
@@ -70,6 +74,19 @@
       url: "#sponsors",
     },
   ];
+
+  window.onload = function test() {
+    if (window.innerWidth < 767) {
+      document.getElementsByClassName("ec-button-group")[1].style.display = "none";
+      document.getElementsByClassName("ec-button-group")[0].style["margin-right"] = "0";
+      document.getElementsByClassName("calendar-container-container")[0].style["padding"] = '.5rem 0rem .25rem 0rem';
+      document.getElementsByClassName("calendar-container")[0].style["margin-left"] = '5vw';
+      document.getElementsByClassName("calendar-container")[0].style["margin-right"] = '5vw';
+      document.getElementsByClassName("calendar-container")[0].style["padding"] = '2rem';
+      document.getElementsByClassName("ec-title")[0].style["padding"] = '1.5rem';
+      document.getElementsByClassName("ec-toolbar")[0].style["flex-wrap"] = "wrap";
+    }
+  }
 </script>
 
 <main>
@@ -157,9 +174,15 @@
   <Band id="schedule" accented>
     <h1 slot="heading">Event Schedule</h1>
   </Band>
-  <div style="padding: 1rem 2rem; background: #ff1199;" class="calendar-container-container">
-    <div style="margin-left: 10vw; margin-right: 10vw; color: black; background: white; padding: 3rem; border-radius: 20px" class=calendar-container>
-      <Calendar {plugins} {options}></Calendar>
+  <div
+    style="padding: 1rem 2rem; background: #ff1199;"
+    class="calendar-container-container"
+  >
+    <div
+      style="margin-left: 10vw; margin-right: 10vw; color: black; background: white; padding: 3rem; border-radius: 20px"
+      class="calendar-container"
+    >
+      <Calendar {plugins} {options} />
     </div>
   </div>
   <Band id="faq">
@@ -189,8 +212,9 @@
                 don’t worry! Joining a team of new friends is the best part of a
                 hackathon. We will have <b>team matching available</b> for everyone
                 on the day of the event, but if you would like to ask around in our
-                discord and create a team beforehand, that's okay too! Team member assignment
-		will be confirmed when adding members and submitting your project through Devpost at the end of the hacking period.
+                discord and create a team beforehand, that's okay too! Team member
+                assignment will be confirmed when adding members and submitting your
+                project through Devpost at the end of the hacking period.
               </div>
             </div>
             <div class="tab">
@@ -205,23 +229,35 @@
             </div>
             <div class="tab">
               <input type="checkbox" id="chck4" />
-              <label class="tab-label" for="chck4">Will there be travel reimbursements?</label>
+              <label class="tab-label" for="chck4"
+                >Will there be travel reimbursements?</label
+              >
               <div class="tab-content">
-                As of right now, there is <b>no plan to provide travel reimbursements</b>. However, if room in our budget appears, we will make a notification during the event.
+                As of right now, there is <b
+                  >no plan to provide travel reimbursements</b
+                >. However, if room in our budget appears, we will make a
+                notification during the event.
               </div>
             </div>
             <div class="tab">
               <input type="checkbox" id="chck5" />
-              <label class="tab-label" for="chck5">Where and when is HackUTA 2022?</label>
+              <label class="tab-label" for="chck5"
+                >Where and when is HackUTA 2022?</label
+              >
               <div class="tab-content">
-                HackUTA will be hosted in <b>Nedderman Hall</b>, located on UTA's company. The event will take place <b>October 1-2, 2022</b>! Exact schedule coming soon.
+                HackUTA will be hosted in <b>Nedderman Hall</b>, located on
+                UTA's company. The event will take place
+                <b>October 1-2, 2022</b>! Exact schedule coming soon.
               </div>
             </div>
             <div class="tab">
               <input type="checkbox" id="chck6" />
-              <label class="tab-label" for="chck6">Will hardware be provided?</label>
+              <label class="tab-label" for="chck6"
+                >Will hardware be provided?</label
+              >
               <div class="tab-content">
-                Unfortunately, <b>we cannot provide hardware</b> this year but if you have your own, you’re more than welcome to submit hardware projects!
+                Unfortunately, <b>we cannot provide hardware</b> this year but if
+                you have your own, you’re more than welcome to submit hardware projects!
               </div>
             </div>
           </div>
@@ -232,46 +268,84 @@
               <input type="checkbox" id="chck7" />
               <label class="tab-label" for="chck7">Are there any rules?</label>
               <div class="tab-content">
-                <b>All work must be done during the 24-hour period of the event</b>.
-                You can't demo something you didn't build. Don't talk about
+                <b
+                  >All work must be done during the 24-hour period of the event</b
+                >. You can't demo something you didn't build. Don't talk about
                 Fight Club. All attendees (hackers, supporters, mentors,
                 volunteers, etc.) must abide by the
-                <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" style="color: var(--primary-color)"><u>MLH Code of Conduct</u></a>.
+                <a
+                  href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+                  style="color: var(--primary-color)"
+                  ><u>MLH Code of Conduct</u></a
+                >.
               </div>
             </div>
             <div class="tab">
               <input type="checkbox" id="chck8" />
-              <label class="tab-label" for="chck8">Can I participate with no experience?</label>
+              <label class="tab-label" for="chck8"
+                >Can I participate with no experience?</label
+              >
               <div class="tab-content">
-				We encourage everyone to come, regardless of skill level. There is <b>no experience required</b> and there are many opportunities to learn and grow. We will host <b>workshops</b> and have <b>mentors</b> available to help you along the way.
+                We encourage everyone to come, regardless of skill level. There
+                is <b>no experience required</b> and there are many
+                opportunities to learn and grow. We will host <b>workshops</b>
+                and have <b>mentors</b> available to help you along the way.
               </div>
             </div>
             <div class="tab">
               <input type="checkbox" id="chck9" />
-              <label class="tab-label" for="chck9">What do I need to bring?</label>
+              <label class="tab-label" for="chck9"
+                >What do I need to bring?</label
+              >
               <div class="tab-content">
-				Bring your <b>yourself</b>, your <b>valid university ID</b>, a form of <b>ID</b> proving you are over 18 years old, <b>laptop</b>, <b>charger</b> for your computer, and <b>any other accessory</b> you might need within 24 hours. We will provide internet service; however, we recommend installing any necessary software, compilers, packages, tools, and other related items before the event. Firearms, weapons, alcohol, illegal drugs, and power tools are not allowed. Smiles and high-fives are welcome. 🤠🤚
+                Bring your <b>yourself</b>, your <b>valid university ID</b>, a
+                form of <b>ID</b> proving you are over 18 years old,
+                <b>laptop</b>, <b>charger</b> for your computer, and
+                <b>any other accessory</b> you might need within 24 hours. We will
+                provide internet service; however, we recommend installing any necessary
+                software, compilers, packages, tools, and other related items before
+                the event. Firearms, weapons, alcohol, illegal drugs, and power tools
+                are not allowed. Smiles and high-fives are welcome. 🤠🤚
               </div>
             </div>
             <div class="tab">
               <input type="checkbox" id="chck10" />
-              <label class="tab-label" for="chck10">What do I need to wear?</label>
+              <label class="tab-label" for="chck10"
+                >What do I need to wear?</label
+              >
               <div class="tab-content">
-				Wear whatever you are <b>most comfortable</b> in! No need to wear anything professional. However, we do require you to be within the MLH Code of Conduct.
+                Wear whatever you are <b>most comfortable</b> in! No need to wear
+                anything professional. However, we do require you to be within the
+                MLH Code of Conduct.
               </div>
             </div>
             <div class="tab">
               <input type="checkbox" id="chck11" />
-              <label class="tab-label" for="chck11">How do I volunteer at HackUTA?</label>
+              <label class="tab-label" for="chck11"
+                >How do I volunteer at HackUTA?</label
+              >
               <div class="tab-content">
-				Volunteer applications will go live <b>within the first two weeks after registration opens</b>. Be sure to check your emails to get a reminder before volunteer applications open.
+                Volunteer applications will go live <b
+                  >within the first two weeks after registration opens</b
+                >. Be sure to check your emails to get a reminder before
+                volunteer applications open.
               </div>
             </div>
             <div class="tab">
               <input type="checkbox" id="chck12" />
-              <label class="tab-label" for="chck12">When will registration end and is there a limit?</label>
+              <label class="tab-label" for="chck12"
+                >When will registration end and is there a limit?</label
+              >
               <div class="tab-content">
-				        <b>Priority Registration opens August 22nd and closes on September 14th at 11:59 PM CDT</b>. If you are accepted, you will have a week to confirm your registration. If you are not accepted at this time, your application will be reviewed again when <b>registration closes completely on September 28th, 11:59pm CDT</b>.
+                <b
+                  >Priority Registration opens August 22nd and closes on
+                  September 14th at 11:59 PM CDT</b
+                >. If you are accepted, you will have a week to confirm your
+                registration. If you are not accepted at this time, your
+                application will be reviewed again when
+                <b
+                  >registration closes completely on September 28th, 11:59pm CDT</b
+                >.
               </div>
             </div>
           </div>
@@ -308,9 +382,18 @@
             alt="Major League Hacking"
           />
         </li>
+        <li>
+          <img
+            src={rc}
+            style="border-radius: 20px; max-width: 256px; width: 70vw"
+            alt="Raising Canes"
+          />
+        </li>
       </ul>
-      <br>
-      <p>Want to sponsor us? <br>Reach out at <u>sponsor[at]hackuta[dot]org</u></p>
+      <br />
+      <p>
+        Want to sponsor us? <br />Reach out at <u>sponsor[at]hackuta[dot]org</u>
+      </p>
     </div>
   </Band>
   <!-- <Band id="construction" accented>
@@ -323,7 +406,10 @@
 	</Band> -->
   <Band id="footer" special>
     <h4 slot="heading">
-      <a href="https://lryanle.com/acm" style="color: white; text-decoration: none">
+      <a
+        href="https://lryanle.com/acm"
+        style="color: white; text-decoration: none"
+      >
         Made with <img
           src={acmicon}
           alt="acm logo"
@@ -402,7 +488,7 @@
 
   .row {
     display: flex;
-	  flex-wrap: wrap;
+    flex-wrap: wrap;
 
     .col {
       flex: 1;
@@ -411,11 +497,11 @@
         margin-left: 1em;
       }
 
-	  @media (max-width: 472px) {
-		&:last-child {
-			margin-left: 0;
-		}
-	  }
+      @media (max-width: 472px) {
+        &:last-child {
+          margin-left: 0;
+        }
+      }
     }
   }
 
@@ -441,7 +527,7 @@
       border-top-left-radius: 0;
       border-top-right-radius: 0;
     }
-  } 
+  }
 
   .tab {
     width: 100%;
@@ -509,8 +595,14 @@
   }
 
   .calendar-container-container {
-    &> * {
+    & > * {
       margin-bottom: 10vh;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .hide {
+      display: none; 
     }
   }
 </style>
