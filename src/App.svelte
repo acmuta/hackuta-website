@@ -163,8 +163,7 @@
         How do I prepare? What if I'm a beginner? What will be available for me?
       </h2>
       <p>
-        We will be hosting two hybrid workshops before the event: (1) Intro. to
-        Hackathons, VCS, and Python (2) Intro. to Hackathons and Webdesign.
+        We will be hosting three workshops before the event: <b>(1) Intro. to Python & Hackathons</b> <a href="https://www.youtube.com/watch?v=UlFFZiaUVK8" target="_blank" style="color: var(--primary-color);">[Recording]</a> <a href="https://drive.google.com/file/d/16ZiwuHwTO09uqixnvA1NrI0gOXzyJiz-/view?usp=sharing" target="_blank" style="color: var(--primary-color);">[Intro. to Python Slides]</a> <a href="https://drive.google.com/file/d/1DNJHDCewPFe1iilo5AwauVpC8F6viC0l/view?usp=sharing" target="_blank" style="color: var(--primary-color);">[Intro. to Hack Slides]</a>, <b>(2) Intro. to Webdesign with Mobi</b>, and <b>(3) Intro to C# with Paycom</b>.
         During the event, there will be technical—and
         non-technical—opportunities hosted throughout, and mentors ready to
         assist throughout the 24-hour marathon.
