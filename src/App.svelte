@@ -13,6 +13,7 @@
   import utacse from "./assets/sponsors/utacse.png";
   import mlh from "./assets/sponsors/mlh.png";
   import rc from "./assets/sponsors/raisingcanes.png";
+  import standout from "./assets/sponsors/standout.jpg";
   import DesktopNavbar from "./lib/DesktopNavbar.svelte";
   import Calendar from "@event-calendar/core";
   import List from "@event-calendar/list";
@@ -384,6 +385,13 @@
         <li>
           <img
             src={rc}
+            style="border-radius: 20px; max-width: 256px; width: 70vw"
+            alt="Raising Canes"
+          />
+        </li>
+        <li>
+          <img
+            src={standout}
             style="border-radius: 20px; max-width: 256px; width: 70vw"
             alt="Raising Canes"
           />
