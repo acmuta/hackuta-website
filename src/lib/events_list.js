@@ -65,7 +65,7 @@ export let events = [
         color: workshop
     },
     {
-        title: "Bob Ross MS Paint",
+        title: "Snyk CTF",
         start: '2022-10-1 13:30:00',
         end: '2022-10-1 14:30:00',
         color: sideEvent
@@ -137,7 +137,7 @@ export let events = [
         color: sideEvent
     },
     {
-        title: "!Light",
+        title: "Bob Ross MS Paint",
         start: '2022-10-1 20:30:00',
         end: '2022-10-1 21:30:00',
         color: sideEvent
