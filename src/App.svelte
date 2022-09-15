@@ -14,6 +14,12 @@
   import mlh from "./assets/sponsors/mlh.png";
   import rc from "./assets/sponsors/raisingcanes.png";
   import standout from "./assets/sponsors/standout.jpg";
+  import cockroachlabs from "./assets/sponsors/cockroachlabs.png";
+  import deso from "./assets/sponsors/deso.png";
+  import domaincom from "./assets/sponsors/domaincom.png";
+  import twilio from "./assets/sponsors/twilio.png";
+  import wix from "./assets/sponsors/wix.png";
+  import gdscuta from "./assets/sponsors/gdscuta.png";
   import DesktopNavbar from "./lib/DesktopNavbar.svelte";
   import Calendar from "@event-calendar/core";
   import List from "@event-calendar/list";
@@ -109,8 +115,10 @@
       to="October 2 2021 23:59:59 UTC-0600"
     />
     <br />
+
+    <h2>Registration is now closed. Decisions will be released soon.<br>Thank you to everyone who applied this year!<br><br></h2>
     <div>
-      <LinkBtn href="https://url.lryanle.com/hackuta22">Register Now</LinkBtn>
+      <!-- <LinkBtn href="https://url.lryanle.com/hackuta22">Register Now</LinkBtn> -->
       <LinkBtn href="https://discord.gg/zND7JCAN8y">HackUTA Discord</LinkBtn>
     </div>
     <!-- <p>Registration opens soon!</p> -->
@@ -169,6 +177,7 @@
         non-technical—opportunities hosted throughout, and mentors ready to
         assist throughout the 24-hour marathon.
       </p>
+      <br>
     </div>
   </Band>
   <Band id="schedule" accented>
@@ -356,7 +365,6 @@
   <Band id="sponsors" accented>
     <h1 slot="heading">Sponsors</h1>
     <div slot="content">
-      <p>More Coming Soon!</p>
       <br />
       <ul
         style="display: flex; justify-content: space-evenly; align-items: center; flex-flow: row wrap; gap: 10px 30px"
@@ -393,7 +401,49 @@
           <img
             src={standout}
             style="border-radius: 20px; max-width: 256px; width: 70vw"
-            alt="Raising Canes"
+            alt="Standout Stickers"
+          />
+        </li>
+        <li>
+          <img
+            src={cockroachlabs}
+            style="border-radius: 20px; max-width: 256px; width: 70vw"
+            alt="Cockroach Labs"
+          />
+        </li>
+        <li>
+          <img
+            src={deso}
+            style="border-radius: 20px; max-width: 256px; width: 70vw"
+            alt="DeSo"
+          />
+        </li>
+        <li>
+          <img
+            src={domaincom}
+            style="border-radius: 20px; max-width: 256px; width: 70vw"
+            alt="Domain.com"
+          />
+        </li>
+        <li>
+          <img
+            src={twilio}
+            style="border-radius: 20px; max-width: 256px; width: 70vw"
+            alt="Twilio"
+          />
+        </li>
+        <li>
+          <img
+            src={wix}
+            style="border-radius: 20px; max-width: 256px; width: 70vw"
+            alt="Wix"
+          />
+        </li>
+        <li>
+          <img
+            src={gdscuta}
+            style="border-radius: 20px; max-width: 256px; width: 70vw"
+            alt="Google Developer Student Club at UT Arlington"
           />
         </li>
       </ul>
