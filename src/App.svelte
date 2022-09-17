@@ -116,9 +116,9 @@
     />
     <br />
 
-    <h2>Registration is now closed. Decisions will be released soon.<br>Thank you to everyone who applied this year!<br><br></h2>
+    <!-- <h2>Registration is now closed. Decisions will be released soon.<br>Thank you to everyone who applied this year!<br><br></h2> -->
     <div>
-      <!-- <LinkBtn href="https://url.lryanle.com/hackuta22">Register Now</LinkBtn> -->
+      <LinkBtn href="https://url.lryanle.com/hackuta22">Register Now</LinkBtn>
       <LinkBtn href="https://discord.gg/zND7JCAN8y">HackUTA Discord</LinkBtn>
     </div>
     <!-- <p>Registration opens soon!</p> -->
