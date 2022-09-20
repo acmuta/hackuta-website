@@ -129,7 +129,7 @@
     <div slot="content" class="about">
       <p>
         HackUTA 2022 will be returning this fall as an immersive hackathon for
-        high school and college students, both beginners and hackathon natives
+        college students, both beginners and hackathon natives
         from <b style="color: var(--primary-color);">October 1-2, 2022</b>. As
         spots are limited this year, priority will be given on a first-come
         basis. Students from underrepresented groups are highly encouraged to
