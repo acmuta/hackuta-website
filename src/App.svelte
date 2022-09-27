@@ -20,6 +20,7 @@
   import twilio from "./assets/sponsors/twilio.png";
   import wix from "./assets/sponsors/wix.png";
   import gdscuta from "./assets/sponsors/gdscuta.png";
+  import techtreeroot from "./assets/sponsors/techtreeroot.png";
   import DesktopNavbar from "./lib/DesktopNavbar.svelte";
   import Calendar from "@event-calendar/core";
   import List from "@event-calendar/list";
@@ -30,7 +31,7 @@
   // Calendar
   let plugins = [List, TimeGrid, Interaction];
   let options = {
-    view: "listMonth",
+    view: "timeGridDay",
     //date: '2022-10-1',
     views: {
       timeGridDay: { pointer: true, date: "2022-10-01" },
@@ -392,9 +393,9 @@
         </li>
         <li>
           <img
-            src={rc}
+            src={techtreeroot}
             style="border-radius: 20px; max-width: 256px; width: 70vw"
-            alt="Raising Canes"
+            alt="Tech Tree Root"
           />
         </li>
         <li>
@@ -448,9 +449,9 @@
         </li>
       </ul>
       <br />
-      <p>
+      <!-- <p>
         Want to sponsor us? <br />Reach out at <u>sponsor[at]hackuta[dot]org</u>
-      </p>
+      </p> -->
     </div>
   </Band>
   <!-- <Band id="construction" accented>
