@@ -137,7 +137,7 @@ export let events = [
         color: sideEvent
     },
     {
-        title: "Computer Visiton Workshop<br>(NH 105)",
+        title: "Computer Vision Workshop<br>(NH 105)",
         start: '2022-10-1 20:30:00',
         end: '2022-10-1 21:30:00',
         color: workshop
