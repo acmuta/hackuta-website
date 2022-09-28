@@ -185,6 +185,12 @@ export let events = [
         color: sideEvent
     },
     {
+        title: "Women In Tech Panel<br>(NH 100)",
+        start: '2022-10-2 11:00:00',
+        end: '2022-10-2 12:00:00',
+        color: workshop
+    },
+    {
         title: "Lunch<br>(Atrium)",
         start: '2022-10-2 12:00:00',
         end: '2022-10-2 13:00:00',
