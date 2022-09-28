@@ -88,9 +88,9 @@
       document.getElementsByClassName("ec-button-group")[1].style.display = "none";
       document.getElementsByClassName("ec-button-group")[0].style["margin-right"] = "0";
       document.getElementsByClassName("calendar-container-container")[0].style["padding"] = '.5rem 0rem .25rem 0rem';
-      document.getElementsByClassName("calendar-container")[0].style["margin-left"] = '5vw';
-      document.getElementsByClassName("calendar-container")[0].style["margin-right"] = '5vw';
-      document.getElementsByClassName("calendar-container")[0].style["padding"] = '2rem';
+      document.getElementsByClassName("calendar-container")[0].style["margin-left"] = '2vw';
+      document.getElementsByClassName("calendar-container")[0].style["margin-right"] = '2vw';
+      document.getElementsByClassName("calendar-container")[0].style["padding"] = '1.2rem';
       document.getElementsByClassName("ec-title")[0].style["padding"] = '1.5rem';
       document.getElementsByClassName("ec-toolbar")[0].style["flex-wrap"] = "wrap";
     }

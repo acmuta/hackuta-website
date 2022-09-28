@@ -35,171 +35,171 @@ export let events = [
         color: workshop
     },
     {
-        title: "Check-in",
+        title: "Check-in<br>(Atrium)",
         start: '2022-10-1 10:00:00',
         end: '2022-10-1 11:30:00',
         color: other
     },
     {
-        title: "Typing Contest",
+        title: "Typing Contest<br>(NH 100)",
         start: '2022-10-1 10:30:00',
         end: '2022-10-1 11:30:00',
         color: sideEvent
     },
     {
-        title: "Opening Ceremony",
+        title: "Opening Ceremony (NH 100)",
         start: '2022-10-1 11:30:00',
         end: '2022-10-1 12:00:00',
         color: other
     },
     {
-        title: "Lunch",
+        title: "Lunch<br>(Atrium)",
         start: '2022-10-1 12:00:00',
         end: '2022-10-1 13:00:00',
         color: other
     },
     {
-        title: "Machine Learning Workshop",
+        title: "Resume Workshop with Statefarm<br>(NH 105)",
         start: '2022-10-1 13:00:00',
-        end: '2022-10-1 14:00:00',
+        end: '2022-10-1 15:00:00',
         color: workshop
     },
     {
-        title: "Snyk CTF",
+        title: "Machine Learning Workshop<br>(NH 105)",
+        start: '2022-10-1 18:00:00',
+        end: '2022-10-1 19:00:00',
+        color: workshop
+    },
+    {
+        title: "Snyk CTF<br>(NH 105)",
         start: '2022-10-1 13:30:00',
         end: '2022-10-1 14:30:00',
         color: sideEvent
     },
     {
-        title: "Computer Vision Workshop",
-        start: '2022-10-1 14:00:00',
-        end: '2022-10-1 15:00:00',
-        color: workshop
-    },
-    {
-        title: "Skribbl.io",
+        title: "Gartic Phone (Skribbl)<br>(NH 106)",
         start: '2022-10-1 14:30:00',
         end: '2022-10-1 15:30:00',
         color: sideEvent
     },
     {
-        title: "APIs Workshop",
+        title: "APIs Workshop<br>(NH 105)",
         start: '2022-10-1 15:00:00',
         end: '2022-10-1 16:00:00',
         color: workshop
     },
     {
-        title: "Hungry Hungry Hippos",
+        title: "Hungry Hungry Hippos<br>(Atrium)",
         start: '2022-10-1 15:30:00',
         end: '2022-10-1 16:30:00',
         color: sideEvent
     },
     {
-        title: "Databases Workshop",
+        title: "Databases Workshop<br>(NH 105)",
         start: '2022-10-01 16:00:00',
         end: '2022-10-01 17:00:00',
         color: workshop
     },
     {
-        title: "BinarySearch",
+        title: "BinarySearch (Leetcode Prep)<br>(NH 100)",
         start: '2022-10-1 16:30:00',
         end: '2022-10-1 17:30:00',
         color: sideEvent
     },
     {
-        title: "Portfolio Workshop",
+        title: "Portfolio Workshop<br>(NH 105)",
         start: '2022-10-1 17:00:00',
         end: '2022-10-1 18:00:00',
         color: workshop
     },
     {
-        title: "Cup Stacking",
+        title: "Cup Stacking<br>(NH 100)",
         start: '2022-10-1 17:30:00',
         end: '2022-10-1 18:30:00',
         color: sideEvent
     },
     {
-        title: "Dinner",
+        title: "Dinner<br>(Atrium)",
         start: '2022-10-1 19:00:00',
         end: '2022-10-1 20:00:00',
         color: other
     },
     {
-        title: "Slideshow Karaoke",
+        title: "CTF<br>(NH 105)",
         start: '2022-10-1 19:30:00',
         end: '2022-10-1 20:30:00',
         color: sideEvent
     },
     {
-        title: "CTF",
+        title: "Slideshow Karaoke<br>(NH 100)",
         start: '2022-10-1 20:00:00',
         end: '2022-10-1 21:00:00',
         color: sideEvent
     },
     {
-        title: "Bob Ross MS Paint",
+        title: "Bob Ross MS Paint<br>(NH 105)",
         start: '2022-10-1 20:30:00',
         end: '2022-10-1 21:30:00',
         color: sideEvent
     },
     {
-        title: "Drone Building",
+        title: "Drone Building<br>(NH 100)",
         start: '2022-10-1 21:00:00',
         end: '2022-10-1 22:00:00',
         color: sideEvent
     },
     {
-        title: "Multiplayer Games",
+        title: "Multiplayer Games<br>(NH 100)",
         start: '2022-10-1 22:30:00',
         end: '2022-10-1 23:30:00',
         color: sideEvent
     },
     {
-        title: "Minecraft Server Challenge",
+        title: "Minecraft Server Challenge<br>(NH 100)",
         start: '2022-10-1 22:00:00',
-        end: '2022-10-1 22:50:00',
+        end: '2022-10-1 23:00:00',
         color: sideEvent
     },
     {
-        title: "Super Smash Bros Ultimate",
+        title: "Statefarm Super Smash Bros Ultimate Tournament<br>(NH 100)",
         start: '2022-10-1 23:00:00',
         end: '2022-10-2 01:00:00',
         color: sideEvent
     },
     {
-        title: "Talent Show, Karaoke",
+        title: "Talent Show, Karaoke<br>(NH 100)",
         start: '2022-10-2 00:00:00',
         end: '2022-10-2 01:30:00',
         color: sideEvent
     },
     {
-        title: "Breakfast",
+        title: "Breakfast<br>(Atrium)",
         start: '2022-10-2 09:00:00',
-        end: '2022-10-2 09:30:00',
+        end: '2022-10-2 10:00:00',
         color: other
     },
     {
-        title: "Yoga",
+        title: "Yoga<br>(NH 100)",
         start: '2022-10-2 10:00:00',
         end: '2022-10-2 11:00:00',
         color: sideEvent
     },
     {
-        title: "Lunch",
+        title: "Lunch<br>(Atrium)",
         start: '2022-10-2 12:00:00',
         end: '2022-10-2 13:00:00',
         color: other
     },
     {
-        title: "Judging",
-        start: '2022-10-2 12:30:00',
+        title: "Judging<br>(Atrium)",
+        start: '2022-10-2 13:00:00',
         end: '2022-10-2 15:30:00',
         color: other
     },
     {
-        title: "Closing Ceremony",
+        title: "Closing Ceremony (NH 100)",
         start: '2022-10-2 15:30:00',
-        end: '2022-10-2 16:30:00',
+        end: '2022-10-2 16:00:00',
         color: other
     },
 ];
