@@ -77,7 +77,7 @@ export let events = [
         color: sideEvent
     },
     {
-        title: "Gartic Phone (Skribbl)<br>(NH 106)",
+        title: "Gartic Phone (Skribbl.io)<br>(NH 106)",
         start: '2022-10-1 14:30:00',
         end: '2022-10-1 15:30:00',
         color: sideEvent
@@ -131,19 +131,19 @@ export let events = [
         color: sideEvent
     },
     {
-        title: "Slideshow Karaoke<br>(NH 100)",
+        title: "Bob Ross MS Paint<br>(NH 100)",
         start: '2022-10-1 20:00:00',
         end: '2022-10-1 21:00:00',
         color: sideEvent
     },
     {
-        title: "Bob Ross MS Paint<br>(NH 105)",
+        title: "Computer Visiton Workshop<br>(NH 105)",
         start: '2022-10-1 20:30:00',
         end: '2022-10-1 21:30:00',
-        color: sideEvent
+        color: workshop
     },
     {
-        title: "Drone Building<br>(NH 100)",
+        title: "Slideshow Karaoke<br>(NH 100)",
         start: '2022-10-1 21:00:00',
         end: '2022-10-1 22:00:00',
         color: sideEvent
