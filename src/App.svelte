@@ -88,9 +88,9 @@
       document.getElementsByClassName("ec-button-group")[1].style.display = "none";
       document.getElementsByClassName("ec-button-group")[0].style["margin-right"] = "0";
       document.getElementsByClassName("calendar-container-container")[0].style["padding"] = '.5rem 0rem .25rem 0rem';
-      document.getElementsByClassName("calendar-container")[0].style["margin-left"] = '5vw';
-      document.getElementsByClassName("calendar-container")[0].style["margin-right"] = '5vw';
-      document.getElementsByClassName("calendar-container")[0].style["padding"] = '2rem';
+      document.getElementsByClassName("calendar-container")[0].style["margin-left"] = '2vw';
+      document.getElementsByClassName("calendar-container")[0].style["margin-right"] = '2vw';
+      document.getElementsByClassName("calendar-container")[0].style["padding"] = '1.2rem';
       document.getElementsByClassName("ec-title")[0].style["padding"] = '1.5rem';
       document.getElementsByClassName("ec-toolbar")[0].style["flex-wrap"] = "wrap";
     }
@@ -117,9 +117,9 @@
     />
     <br />
 
-    <!-- <h2>Registration is now closed. Decisions will be released soon.<br>Thank you to everyone who applied this year!<br><br></h2> -->
+    <h2>Registration is now closed.<br>Walk-in registration updates are on our discord.<br>Thank you to everyone who applied this year!<br><br></h2>
     <div>
-      <LinkBtn href="https://url.lryanle.com/hackuta22">Register Now</LinkBtn>
+      <!-- <LinkBtn href="https://url.lryanle.com/hackuta22">Register Now</LinkBtn> -->
       <LinkBtn href="https://discord.gg/zND7JCAN8y">HackUTA Discord</LinkBtn>
     </div>
     <!-- <p>Registration opens soon!</p> -->
