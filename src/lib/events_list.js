@@ -59,7 +59,7 @@ export let events = [
         color: other
     },
     {
-        title: "Resume Workshop with Statefarm<br>(NH 105)",
+        title: "Resume Workshop with Statefarm<br>(NH 100)",
         start: '2022-10-1 13:00:00',
         end: '2022-10-1 15:00:00',
         color: workshop
