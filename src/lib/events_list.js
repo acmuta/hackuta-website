@@ -72,8 +72,8 @@ export let events = [
     },
     {
         title: "Snyk CTF<br>(NH 100)",
-        start: '2022-10-1 17:30:00',
-        end: '2022-10-1 18:30:00',
+        start: '2022-10-1 16:30:00',
+        end: '2022-10-1 17:30:00',
         color: sideEvent
     },
     {
@@ -108,8 +108,8 @@ export let events = [
     },
     {
         title: "Cup Stacking<br>(NH 100)",
-        start: '2022-10-1 16:30:00',
-        end: '2022-10-1 17:30:00',
+        start: '2022-10-1 17:30:00',
+        end: '2022-10-1 18:30:00',
         color: sideEvent
     },
     {
