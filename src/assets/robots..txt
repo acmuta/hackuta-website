@@ -1,0 +1,3 @@
+# Super Uber Secret
+User-agent: *
+Disallow: /assets/secret.jpg
