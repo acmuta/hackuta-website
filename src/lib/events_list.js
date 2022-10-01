@@ -77,12 +77,6 @@ export let events = [
         color: sideEvent
     },
     {
-        title: "Gartic Phone (Skribbl.io)<br>(NH 106)",
-        start: '2022-10-1 14:30:00',
-        end: '2022-10-1 15:30:00',
-        color: sideEvent
-    },
-    {
         title: "APIs Workshop<br>(NH 105)",
         start: '2022-10-1 15:00:00',
         end: '2022-10-1 16:00:00',
