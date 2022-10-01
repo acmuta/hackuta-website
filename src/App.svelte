@@ -110,14 +110,14 @@
   />
   <div class="hero-content">
     <img src={hackLogo} alt="HackUTA Logo" />
-    <h1>📅 October 1-2, 2022</h1>
-    <Countdown
+    <h1 style="margin-top:5vh; margin-bottom: 2.5vh; font-size: 2rem">📅 October 1-2, 2022</h1>
+    <!-- <Countdown
       from="October 1 2022 00:00:00 UTC-0600"
       to="October 2 2021 23:59:59 UTC-0600"
-    />
+    /> -->
     <br />
 
-    <h2>Registration is now closed.<br>Walk-in registration updates are on our discord.<br>Thank you to everyone who applied this year!<br><br></h2>
+    <!-- <h2>Registration is now closed.<br>Walk-in registration updates are on our discord.<br>Thank you to everyone who applied this year!<br><br></h2> -->
     <div>
       <!-- <LinkBtn href="https://url.lryanle.com/hackuta22">Register Now</LinkBtn> -->
       <LinkBtn href="https://discord.gg/zND7JCAN8y">HackUTA Discord</LinkBtn>
