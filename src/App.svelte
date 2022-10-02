@@ -22,6 +22,7 @@
   import gdscuta from "./assets/sponsors/gdscuta.png";
   import techtreeroot from "./assets/sponsors/techtreeroot.png";
   import DesktopNavbar from "./lib/DesktopNavbar.svelte";
+  import secret from './assets/secret.jpg';
   import Calendar from "@event-calendar/core";
   import List from "@event-calendar/list";
   import TimeGrid from "@event-calendar/time-grid";
@@ -467,7 +468,7 @@
       <a
         href="https://lryanle.com/acm"
         style="color: white; text-decoration: none"
-      >
+      > <a href={secret} style="visibility: hidden; display: none;">Gotcha</a>
         Made with <img
           src={acmicon}
           alt="acm logo"
