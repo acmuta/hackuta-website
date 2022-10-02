@@ -34,7 +34,7 @@
     view: "timeGridDay",
     //date: '2022-10-1',
     views: {
-      timeGridDay: { pointer: true, date: "2022-10-01" },
+      timeGridDay: { pointer: true, date: "2022-10-02" },
       timeGridWeek: { pointer: true },
     },
     firstDay: 1, // start week on Monday
