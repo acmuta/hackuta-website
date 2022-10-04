@@ -20,6 +20,8 @@
   import twilio from "./assets/sponsors/twilio.png";
   import wix from "./assets/sponsors/wix.png";
   import gdscuta from "./assets/sponsors/gdscuta.png";
+  import mobi from "./assets/sponsors/mobi.png";
+  import csec from "./assets/sponsors/csec.png";
   import techtreeroot from "./assets/sponsors/techtreeroot.png";
   import DesktopNavbar from "./lib/DesktopNavbar.svelte";
   import secret from './assets/secret.jpg';
@@ -111,7 +113,7 @@
   />
   <div class="hero-content">
     <img src={hackLogo} alt="HackUTA Logo" />
-    <h1 style="margin-top:5vh; margin-bottom: 2.5vh; font-size: 2rem">📅 October 1-2, 2022</h1>
+    <!-- <h1 style="margin-top:5vh; margin-bottom: 2.5vh; font-size: 2rem">📅 October 1-2, 2022</h1> -->
     <!-- <Countdown
       from="October 1 2022 00:00:00 UTC-0600"
       to="October 2 2021 23:59:59 UTC-0600"
@@ -119,8 +121,10 @@
     <br />
 
     <!-- <h2>Registration is now closed.<br>Walk-in registration updates are on our discord.<br>Thank you to everyone who applied this year!<br><br></h2> -->
+    <h2 style="margin: 2vh 3vw;">HackUTA 2022 has concluded.<br>Winners are listed on our <a href="https://hackuta2022.devpost.com" target="_blank" style="color: cyan; text-decoration: none">devpost</a>.<br><br><br>Thank you everyone who came!<a href="https://lryanle.com/acm" style="color: white; text-decoration: none; display: flex; justify-content: center; flex-wrap: wrap; align-items: center; margin-bottom: 2vh; margin-right: 1rem"><img src={acmicon} alt="acm logo" style="height: 3rem; width: 3rem; margin: 0"/>ACM at UTA</a>
     <div>
       <!-- <LinkBtn href="https://url.lryanle.com/hackuta22">Register Now</LinkBtn> -->
+      <LinkBtn href="https://lryanle.com/acm">ACM Discord</LinkBtn>
       <LinkBtn href="https://discord.gg/zND7JCAN8y">HackUTA Discord</LinkBtn>
     </div>
     <!-- <p>Registration opens soon!</p> -->
@@ -372,81 +376,112 @@
         style="display: flex; justify-content: space-evenly; align-items: center; flex-flow: row wrap; gap: 10px 30px"
       >
         <li>
-          <img
-            src={statefarm}
-            style="border-radius: 20px; max-width: 256px; width: 70vw"
-            alt="StateFarm"
-          />
+          <a href="https://statefarm.com/" target="_blank">
+            <img
+              src={statefarm}
+              style="border-radius: 20px; max-width: 256px; width: 70vw"
+              alt="StateFarm"
+            />
+          </a>
         </li>
         <li>
-          <img
-            src={utacse}
-            style="border-radius: 20px; max-width: 256px; width: 70vw"
-            alt="UTA Department of Computer Science"
-          />
+          <a href="https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse" target="_blank">
+            <img
+              src={utacse}
+              style="border-radius: 20px; max-width: 256px; width: 70vw"
+              alt="UTA Department of Computer Science"
+            />
+          </a>
         </li>
         <li>
-          <img
-            src={mlh}
-            style="border-radius: 20px; max-width: 256px; width: 70vw"
-            alt="Major League Hacking"
-          />
+          <a href="https://mlh.io/" target="_blank">
+            <img
+              src={mlh}
+              style="border-radius: 20px; max-width: 256px; width: 70vw"
+              alt="Major League Hacking"
+            />
+          </a>
         </li>
         <li>
-          <img
-            src={techtreeroot}
-            style="border-radius: 20px; max-width: 256px; width: 70vw"
-            alt="Tech Tree Root"
-          />
+          <a href="https://www.techtreeroot.org/" target="_blank">
+            <img
+              src={techtreeroot}
+              style="border-radius: 20px; max-width: 256px; width: 70vw"
+              alt="Tech Tree Root"
+            />
+          </a>
         </li>
         <li>
-          <img
-            src={standout}
-            style="border-radius: 20px; max-width: 256px; width: 70vw"
-            alt="Standout Stickers"
-          />
+          <a href="https://www.standoutstickers.com/" target="_blank">
+            <img
+              src={standout}
+              style="border-radius: 20px; max-width: 256px; width: 70vw"
+              alt="Standout Stickers"
+            />
+          </a>
         </li>
         <li>
-          <img
-            src={cockroachlabs}
-            style="border-radius: 20px; max-width: 256px; width: 70vw"
-            alt="Cockroach Labs"
-          />
+          <a href="https://www.cockroachlabs.com/" target="_blank">
+            <img
+              src={cockroachlabs}
+              style="border-radius: 20px; max-width: 256px; width: 70vw"
+              alt="Cockroach Labs"
+            />
+          </a>
         </li>
         <li>
-          <img
-            src={deso}
-            style="border-radius: 20px; max-width: 256px; width: 70vw"
-            alt="DeSo"
-          />
+          <a href="https://www.deso.com/" target="_blank">
+            <img
+              src={deso}
+              style="border-radius: 20px; max-width: 256px; width: 70vw"
+              alt="DeSo"
+            />
+          </a>
         </li>
         <li>
-          <img
-            src={domaincom}
-            style="border-radius: 20px; max-width: 256px; width: 70vw"
-            alt="Domain.com"
-          />
+          <a href="https://www.domain.com/" target="_blank">
+            <img
+              src={domaincom}
+              style="border-radius: 20px; max-width: 256px; width: 70vw"
+              alt="Domain.com"
+            />
+          </a>
         </li>
         <li>
-          <img
-            src={twilio}
-            style="border-radius: 20px; max-width: 256px; width: 70vw"
-            alt="Twilio"
-          />
+          <a href="https://www.twilio.com/" target="_blank">
+            <img
+              src={twilio}
+              style="border-radius: 20px; max-width: 256px; width: 70vw"
+              alt="Twilio"
+            />
+          </a>
         </li>
         <li>
-          <img
-            src={wix}
-            style="border-radius: 20px; max-width: 256px; width: 70vw"
-            alt="Wix"
-          />
+          <a href="https://www.wix.com/velo" target="_blank">
+            <img
+              src={wix}
+              style="border-radius: 20px; max-width: 256px; width: 70vw"
+              alt="Wix"
+            />
+          </a>
         </li>
         <li>
-          <img
-            src={gdscuta}
-            style="border-radius: 20px; max-width: 256px; width: 70vw"
-            alt="Google Developer Student Club at UT Arlington"
-          />
+          <a href="https://uta.mobi" target="_blank">
+            <img
+              src={mobi}
+              style="border-radius: 20px; max-width: 256px; width: 70vw"
+              alt="Google Developer Student Club at UT Arlington"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.utacsec.org/" target="_blank">
+            <img
+              src={csec}
+              style="border-radius: 20px; max-width: 192px; width: 70vw"
+              alt="Google Developer Student Club at UT Arlington"
+            />
+          </a>
         </li>
       </ul>
       <br />

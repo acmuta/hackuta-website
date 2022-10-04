@@ -66,18 +66,18 @@ export let events = [
     },
     {
         title: "Machine Learning Workshop<br>(NH 105)",
-        start: '2022-10-1 18:00:00',
-        end: '2022-10-1 19:00:00',
+        start: '2022-10-1 13:00:00',
+        end: '2022-10-1 14:00:00',
         color: workshop
     },
     {
-        title: "Snyk CTF<br>(NH 105)",
-        start: '2022-10-1 13:30:00',
-        end: '2022-10-1 14:30:00',
+        title: "Snyk CTF<br>(NH 100)",
+        start: '2022-10-1 16:30:00',
+        end: '2022-10-1 17:30:00',
         color: sideEvent
     },
     {
-        title: "APIs Workshop<br>(NH 105)",
+        title: "Intro to Javascript and APIs Workshop<br>(NH 105)",
         start: '2022-10-1 15:00:00',
         end: '2022-10-1 16:00:00',
         color: workshop
@@ -95,9 +95,9 @@ export let events = [
         color: workshop
     },
     {
-        title: "BinarySearch (Leetcode Prep)<br>(NH 100)",
-        start: '2022-10-1 16:30:00',
-        end: '2022-10-1 17:30:00',
+        title: "BinarySearch (Leetcode Prep)<br>(NH 105)",
+        start: '2022-10-1 18:00:00',
+        end: '2022-10-1 19:00:00',
         color: sideEvent
     },
     {
@@ -120,8 +120,8 @@ export let events = [
     },
     {
         title: "CTF<br>(NH 105)",
-        start: '2022-10-1 19:30:00',
-        end: '2022-10-1 20:30:00',
+        start: '2022-10-1 20:00:00',
+        end: '2022-10-1 21:00:00',
         color: sideEvent
     },
     {
@@ -132,8 +132,8 @@ export let events = [
     },
     {
         title: "Computer Vision Workshop<br>(NH 105)",
-        start: '2022-10-1 20:30:00',
-        end: '2022-10-1 21:30:00',
+        start: '2022-10-1 21:00:00',
+        end: '2022-10-1 22:00:00',
         color: workshop
     },
     {
