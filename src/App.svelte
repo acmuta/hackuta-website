@@ -35,7 +35,7 @@
     view: "timeGridDay",
     //date: '2022-10-1',
     views: {
-      timeGridDay: { pointer: true, date: "2022-10-02" },
+      timeGridDay: { pointer: true, date: "2022-10-01" },
       timeGridWeek: { pointer: true },
     },
     firstDay: 1, // start week on Monday
@@ -119,6 +119,7 @@
     <br />
 
     <!-- <h2>Registration is now closed.<br>Walk-in registration updates are on our discord.<br>Thank you to everyone who applied this year!<br><br></h2> -->
+    <h2>HackUTA has ended. Thank you everyone for coming!<br>Winners are listed on our <a href="https://hackuta2022.devpost.com" target="_blank" style="color: cyan; text-decoration: none">devpost</a>.</h2>
     <div>
       <!-- <LinkBtn href="https://url.lryanle.com/hackuta22">Register Now</LinkBtn> -->
       <LinkBtn href="https://discord.gg/zND7JCAN8y">HackUTA Discord</LinkBtn>
