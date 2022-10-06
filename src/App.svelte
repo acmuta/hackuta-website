@@ -379,7 +379,7 @@
           <a href="https://statefarm.com/" target="_blank">
             <img
               src={statefarm}
-              style="border-radius: 20px; max-width: 256px; width: 70vw"
+              style="border-radius: 20px; max-width: 384px; width: 70vw"
               alt="StateFarm"
             />
           </a>
@@ -388,7 +388,7 @@
           <a href="https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse" target="_blank">
             <img
               src={utacse}
-              style="border-radius: 20px; max-width: 256px; width: 70vw"
+              style="border-radius: 20px; max-width: 192px; width: 70vw"
               alt="UTA Department of Computer Science"
             />
           </a>
@@ -406,44 +406,17 @@
           <a href="https://www.techtreeroot.org/" target="_blank">
             <img
               src={techtreeroot}
-              style="border-radius: 20px; max-width: 256px; width: 70vw"
+              style="border-radius: 20px; max-width: 224px; width: 70vw"
               alt="Tech Tree Root"
             />
           </a>
         </li>
         <li>
-          <a href="https://www.standoutstickers.com/" target="_blank">
+          <a href="https://www.wix.com/velo" target="_blank">
             <img
-              src={standout}
-              style="border-radius: 20px; max-width: 256px; width: 70vw"
-              alt="Standout Stickers"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.cockroachlabs.com/" target="_blank">
-            <img
-              src={cockroachlabs}
-              style="border-radius: 20px; max-width: 256px; width: 70vw"
-              alt="Cockroach Labs"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.deso.com/" target="_blank">
-            <img
-              src={deso}
-              style="border-radius: 20px; max-width: 256px; width: 70vw"
-              alt="DeSo"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.domain.com/" target="_blank">
-            <img
-              src={domaincom}
-              style="border-radius: 20px; max-width: 256px; width: 70vw"
-              alt="Domain.com"
+              src={wix}
+              style="border-radius: 20px; max-width: 192px; width: 70vw"
+              alt="Wix"
             />
           </a>
         </li>
@@ -457,11 +430,29 @@
           </a>
         </li>
         <li>
-          <a href="https://www.wix.com/velo" target="_blank">
+          <a href="https://www.domain.com/" target="_blank">
             <img
-              src={wix}
+              src={domaincom}
               style="border-radius: 20px; max-width: 256px; width: 70vw"
-              alt="Wix"
+              alt="Domain.com"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.deso.com/" target="_blank">
+            <img
+              src={deso}
+              style="border-radius: 20px; max-width: 256px; width: 70vw"
+              alt="DeSo"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.cockroachlabs.com/" target="_blank">
+            <img
+              src={cockroachlabs}
+              style="border-radius: 20px; max-width: 256px; width: 70vw"
+              alt="Cockroach Labs"
             />
           </a>
         </li>
@@ -478,8 +469,17 @@
           <a href="https://www.utacsec.org/" target="_blank">
             <img
               src={csec}
-              style="border-radius: 20px; max-width: 192px; width: 70vw"
+              style="border-radius: 20px; max-width: 128px; width: 70vw"
               alt="Google Developer Student Club at UT Arlington"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.standoutstickers.com/" target="_blank">
+            <img
+              src={standout}
+              style="border-radius: 20px; max-width: 192px; width: 70vw"
+              alt="Standout Stickers"
             />
           </a>
         </li>
