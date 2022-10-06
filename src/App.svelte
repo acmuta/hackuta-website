@@ -379,7 +379,7 @@
           <a href="https://statefarm.com/" target="_blank">
             <img
               src={statefarm}
-              style="border-radius: 20px; max-width: 384px; width: 70vw"
+              style="border-radius: 20px; max-width: 320px; width: 70vw"
               alt="StateFarm"
             />
           </a>
